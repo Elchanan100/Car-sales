@@ -1,4 +1,5 @@
 <app-header></app-header>
 <app-cars-panel *ngIf="this.myPanelManager.currentPanel=='cars'"></app-cars-panel>
+<app-trucks-panel *ngIf="this.myPanelManager.currentPanel=='Trucks'"></app-trucks-panel>
 <app-paginator (myDelta)='change($event)'></app-paginator>
 

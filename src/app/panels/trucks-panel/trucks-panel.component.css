@@ -1,0 +1,28 @@
+.myPanelLaft{
+    display: inline-block;
+    width: 40%;
+}
+.myPanelWrite{
+    display: inline-block;
+    width: 40%;
+}
+
+.myPanelTop{
+    display: block;
+    width: 100%;
+}
+.myPanel{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.divmyPanel{
+    display: inline-block;
+    width: 80%;
+}
+li:hover{
+    font-weight: bold;
+    font-size: x-large;
+    cursor: pointer; 
+    text-decoration: underline; 
+}
