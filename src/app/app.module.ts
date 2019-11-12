@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { HttpClient } from 'selenium-webdriver/http';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './comps/general/header/header.component';
@@ -12,6 +11,8 @@ import { TruckCardComponent } from './comps/vehicles/truck-card/truck-card.compo
 import { CarCardComponent } from './comps/vehicles/car-card/car-card.component';
 import { BuseCardComponent } from './comps/vehicles/buse-card/buse-card.component';
 import { PaginatorComponent } from './comps/general/paginator/paginator.component';
+import { HttpClientModule } from "@angular/common/http"
+
 
 @NgModule({
   declarations: [
@@ -27,7 +28,7 @@ import { PaginatorComponent } from './comps/general/paginator/paginator.componen
     PaginatorComponent
   ],
   imports: [
-    BrowserModule,HttpClient
+    BrowserModule, HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
