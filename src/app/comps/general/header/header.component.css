@@ -1,0 +1,28 @@
+.my-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(6, 237, 253);
+    width: 100%;
+   
+}
+.my-logo{
+    width: 20%;
+    margin: 2%;
+    
+}
+
+.my-logo > img {
+    width: 100%;
+    min-height: 100px;
+    min-width: 100px;
+}
+.uzer{
+    width: 20%;
+   margin: 2%;
+   font-style: initial;
+}
+app-navigation{
+    display: block;
+    width: 49%;
+}

@@ -1,0 +1,20 @@
+<div >
+        <div class="myPanelTop">
+            <h1>Welcome to choosing a truck</h1>
+        </div>
+        <div class="divmyPanel">
+            <div class="myPanel">
+                <div class="myPanelLaft">
+                    <h2>Our trucks</h2>
+                    <ul>
+                         <li *ngFor =" let h of trucks.arreyTrucks" (click)='myClickLi(h.manufacturer)'>{{ h.manufacturer }}</li> 
+                    </ul>
+                </div>
+                <div class="myPanelWrite">
+                    <app-truck-card></app-truck-card>
+                </div>
+            </div>
+        </div>
+        
+    
+    </div>

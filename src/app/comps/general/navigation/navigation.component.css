@@ -1,0 +1,14 @@
+.my-nev{
+    display: flex;
+    justify-content:space-between;
+    width: 70%;
+}
+li:hover{
+    font-weight: bold;
+    font-size: x-large;
+    cursor: pointer; 
+    text-decoration: underline; 
+}
+li{
+    font-style: oblique;
+}
