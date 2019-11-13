@@ -13,12 +13,12 @@ export class TrucksservService {
     
     http.get('https://raw.githubusercontent.com/Elchanan100/Car-sales/master/src/assets/trukcs.json').subscribe(
       x=>{this.arreyTrucks=x as trukcs[];
-        this.currentCerOfarreyTrucks=this.arreyTrucks[0];
+        this.currentCerOfarreyTrucks=this.arreyTrucks[2];
        }
     )
     
   }
   arreyTrucks:trukcs[]=[]
-  currentIndexOfTrucks=0        
+  currentIndexOfTrucks=2        
   currentCerOfarreyTrucks:trukcs;
 }
